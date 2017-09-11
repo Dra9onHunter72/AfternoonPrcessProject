@@ -1,6 +1,7 @@
 package Process.controller;
 
 import Process.model.playDohCircle;
+import Process.model.PlayDohBear;
 
 public class ProcessController
 {
@@ -17,5 +18,11 @@ public class ProcessController
 		System.out.println("Look I made a circle!");
 		System.out.println(firstcircle);
 		System.out.println(secondcircle);
+		
+		playDohCircle thirdCircle = new playDohCircle(10);
+		System.out.println(thirdCircle);
+		
+		PlayDohBear firstBear = new PlayDohBear(20);
+		System.out.println(firstBear);
 	}
 }
