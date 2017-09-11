@@ -10,4 +10,16 @@ public class playDohCircle
 	{
 		this.size = 5;
 	}
+	
+	public playDohCircle(int size)
+	{
+		this.size = size;
+		
+	}
+	
+	public String toString()
+	{
+		String description = " I am a circle, My size is " + size;
+		return description;
+	}
 }
