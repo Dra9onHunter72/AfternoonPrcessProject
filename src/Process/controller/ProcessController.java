@@ -19,10 +19,18 @@ public class ProcessController
 		System.out.println(firstcircle);
 		System.out.println(secondcircle);
 		
+		
+		
 		playDohCircle thirdCircle = new playDohCircle(10);
 		System.out.println(thirdCircle);
 		
 		PlayDohBear firstBear = new PlayDohBear(20);
 		System.out.println(firstBear);
+		
+		System.out.println("What size should we change  to?");
+		
+		
+		System.out.println("The circle now is.......");
+		System.out.println(thirdCircle);
 	}
 }
